@@ -8,7 +8,7 @@
 ```bash
 git clone https://github.com/Snow-Domain-Smart-Fox/captcha.git
 cd captcha
-pip install -r flask ppllocr
+pip install flask ppllocr
 python app.py
 ```
 
@@ -16,7 +16,7 @@ python app.py
 ```bash
 git clone https://github.com/Snow-Domain-Smart-Fox/captcha.git
 cd captcha
-pip install -r flask ppllocr
+pip install flask ppllocr
 python app.py --port [PORT]
 ```
 
