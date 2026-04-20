@@ -9,7 +9,7 @@
 git clone https://github.com/Snow-Domain-Smart-Fox/captcha.git
 cd captcha
 pip install flask ppllocr
-python app.py
+python server.py
 ```
 
 # 指定端口
@@ -17,7 +17,7 @@ python app.py
 git clone https://github.com/Snow-Domain-Smart-Fox/captcha.git
 cd captcha
 pip install flask ppllocr
-python app.py --port [PORT]
+python server.py --port [PORT]
 ```
 
 # captcha 项目 OCR 接口使用说明
@@ -25,9 +25,7 @@ python app.py --port [PORT]
 
 ## 1. 启动服务
 ```bash
-python app.py
-
-python app.py --port 9000
+python server.py --port [PORT]
 ```
 
 ## 2. 接口信息
